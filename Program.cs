@@ -10,7 +10,10 @@ namespace reservations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            play play = new play();
+            play.eventName = "A Midnight Summers Dream";
+            play.eventTime = "6 Pm, Tuesday June 2 2020";
+            play.ticketAmmo = 19.99M;
         }
     }
 }

@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="play.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sportingEvent.cs" />
+    <Compile Include="ticket.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
